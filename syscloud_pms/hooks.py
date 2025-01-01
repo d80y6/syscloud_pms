@@ -227,3 +227,38 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "DocType", "filters": [
+        [
+            "name", "in", [
+                 "building_rooms",
+ "building_floors",
+ "sites_tree",
+ "BuildingDamageSurveyForm_sublist",
+ "Building Inspection Checklist",
+ "BuildingDamageSurveyForm",
+ "Buildings",
+ "Lease_power_calc",
+ "Lease_maint_calc",
+ "Lease_tower_calc",
+ "Lease_building_calc",
+ "Lease_area_calc",
+ "Lease_area_own",
+ "Adminstrative_services",
+ "Sites_new",
+ "Tech_net",
+ "Tech_Control",
+ "Sites",
+ "Directorates_final",
+ "Governorates_final",
+ "CS_D",
+ "S_CS_D",
+ "Main_Contents",
+ "Detailed_tech_contets",
+ "Standards",
+ "governerate",
+ "Governorates"
+            ]
+        ]
+    ]},
+]
